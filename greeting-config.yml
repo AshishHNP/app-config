@@ -1,6 +1,6 @@
 security:
   basic:
-    enabled: false
+    enabled: true
 
 management:
   security:
@@ -9,9 +9,9 @@ management:
 logging:
   level:
     io:
-      pivotal: DEBUG
+      pivotal: INFO
 
 greeting:
-  displayFortune: true
+  displayFortune: false
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
